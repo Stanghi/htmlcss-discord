@@ -88,8 +88,9 @@ main .jumbotron{
     justify-content: center;
     align-items: center;
     color: #FFFFFF;
-    background-color: #517AEA;
     height: 550px;
+    background-image: url(/assets/img/jumbo.png);
+    background-size: cover;
 }
 
 main .jumbotron .box-jumbo{
@@ -111,6 +112,10 @@ main .jumbotron .box-jumbo .download{
     margin-right: 25px;
     background-color: #FFFFFF;
     font-size: 21px;
+}
+
+main .jumbotron .box-jumbo .download i{
+    margin-right: 15px;
 }
 
 main .jumbotron .box-jumbo .open{
