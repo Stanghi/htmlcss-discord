@@ -93,7 +93,7 @@ main .jumbotron{
     align-items: center;
     color: #FFFFFF;
     height: 550px;
-    background-image: url(/assets/img/jumbo.png);
+    background-image: url('../img/jumbo.png');
     background-size: cover;
 }
 
@@ -172,6 +172,7 @@ main .section h2{
 main .section p{
     font-size: 21px;
 }
+
 
 .wave-gray {
     background-color: #FFFFFF;
