@@ -76,9 +76,13 @@ header .container .header-class .menu ul li a:hover{
     text-decoration: underline;
 }
 
-header .container .header-class .menu .log-in{ 
+header .container .header-class .log-in{ 
     background-color: #FFFFFF;
 }
+
+header .container .header-class .log-in:hover{
+    color: #3161E0;
+} 
 /* END HEADER */
 
 /* MAIN */
@@ -118,10 +122,18 @@ main .jumbotron .box-jumbo .download i{
     margin-right: 15px;
 }
 
+main .jumbotron .box-jumbo .download:hover{
+    color: #3161E0;
+}
+
 main .jumbotron .box-jumbo .open{
     background-color: #23272A;
     color: white;
     font-size: 21px;
+}
+
+main .jumbotron .box-jumbo .open:hover{
+    color: #3161E0;
 }
 /* END JUMBOTRON */
 
@@ -196,6 +208,10 @@ main .section-4 .btn-adventure{
     font-size: 21px;
 }
 
+main .btn-adventure:hover{
+    color: #23272A;
+}
+
 main .section-4 .btn-adventure i{
     margin-right: 15px;
 }
@@ -258,6 +274,10 @@ footer .container .list ul li a{
     text-decoration: none;
     color: #FFFFFF;
 }
+
+footer .container .list ul li a:hover{
+    text-decoration: underline;
+}
 /* END FOOTER TOP */
 
 /* FOOTER BOTTOM */
@@ -271,6 +291,10 @@ footer .container .footer-bottom{
 footer .container .footer-bottom .btn-blue{
     background-color: #8EA1E1;
     color: #FFFFFF;
+}
+
+footer .container .footer-bottom .btn-blue:hover{
+    color: #23272A;
 }
 /* END FOOTER BOTTOM */
 /* END FOOTER */
