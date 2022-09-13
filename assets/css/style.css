@@ -142,7 +142,8 @@ main .section{
     display: flex;
     justify-content: space-between;
     color: #23272A;
-    padding: 140px 0;
+    padding: 120px 0;
+    flex-wrap: wrap;
 }
 
 .bianco{
@@ -166,6 +167,26 @@ main .section h2{
 main .section p{
     font-size: 21px;
 }
+
+.wave-gray {
+    background-color: #FFFFFF;
+}
+
+.wave-white {
+    background-color: #f6f6f6;
+}
+
+.wave-gray img {
+    filter: invert(0.965);
+    transform: translate(0px, 5px);
+}
+
+.wave-white img {
+    filter: invert(1);
+    transform: translate(0px, 5px);
+}
+
+
 /* END SECTION */
 
 /* SECTION-4 */
@@ -175,7 +196,7 @@ main .section-4{
     flex-direction: column;
     align-items: center;
     color: #23272A;
-    padding: 140px 0;
+    padding: 120px 0;
 }
 
 main .section-4 h2{
