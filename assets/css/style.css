@@ -3,8 +3,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-/*     outline: 2px solid red;
- */}
+    /* outline: 2px solid red; */
+}
 
 body{
     font-family: 'Archivo', sans-serif;
@@ -158,8 +158,13 @@ main .section .text{
     width: 340px;
 }
 
+main .section img{
+    margin-bottom: auto;
+}
+
 main .section h2{
-    font-size: 40px;
+    padding-top: 40px;
+    font-size: 50px;
     font-weight: 900;
     margin-bottom: 35px;
 }
