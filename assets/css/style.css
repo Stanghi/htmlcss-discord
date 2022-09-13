@@ -3,8 +3,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* outline: 2px solid red; */
-}
+/*     outline: 2px solid red;
+ */}
 
 body{
     font-family: 'Archivo', sans-serif;
@@ -130,6 +130,7 @@ main .section{
     display: flex;
     justify-content: space-between;
     color: #23272A;
+    padding: 140px 0;
 }
 
 .bianco{
@@ -138,12 +139,6 @@ main .section{
 
 .grigio{
     background-color: #F6F6F6;
-}
-
-main .section .img{
-    background-color: #688DF3;
-    height: 395px; /* DA LEVARE */
-    width: 615px;
 }
 
 main .section .text{
@@ -164,25 +159,21 @@ main .section p{
 /* SECTION-4 */
 main .section-4{
     display: flex;
-    flex-direction: column;
     justify-content: space-around;
+    flex-direction: column;
     align-items: center;
     color: #23272A;
+    padding: 140px 0;
 }
 
 main .section-4 h2{
     font-size: 3rem;
+    margin-bottom: 20px;
 }
 
 main .section-4 p{
     text-align: center;
     font-size: 20px;
-}
-
-main .section-4 .img{
-    width: 1105px;
-    height: 560px;
-    background-color: #688DF3;
 }
 
 main .section-4 .adventure{
@@ -195,11 +186,18 @@ main .section-4 .adventure h2{
     font-size: 30px;
 }
 
+main .section-4 #item-4{
+    width: 100%;
+}
+
 main .section-4 .btn-adventure{
     background-color: #8EA1E1;
     color: #FFFFFF;
-    margin-right: 25px;
     font-size: 21px;
+}
+
+main .section-4 .btn-adventure i{
+    margin-right: 15px;
 }
 /* END SECTION-4 */
 /* END MAIN*/
