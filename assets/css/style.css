@@ -95,6 +95,7 @@ main .jumbotron{
     height: 550px;
     background-image: url('../img/jumbo.png');
     background-size: cover;
+    background-position: center;
 }
 
 main .jumbotron .box-jumbo{
@@ -120,6 +121,7 @@ main .jumbotron .box-jumbo .download{
 
 main .jumbotron .box-jumbo .download i{
     margin-right: 15px;
+    font-size: 15px;
 }
 
 main .jumbotron .box-jumbo .download:hover{
@@ -276,6 +278,7 @@ footer .container .social h2{
 
 footer .container .social img{
     width: 25px;
+    vertical-align: middle;
 }
 
 footer .container .social i{
